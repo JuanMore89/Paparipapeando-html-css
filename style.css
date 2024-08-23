@@ -1,0 +1,49 @@
+body {
+    background-color: #ffccff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    color:purple;
+}
+
+strong {
+    font-weight: bold;
+    color:white;
+    background-color: darkmagenta;
+}
+
+#span1 {
+    color: darkorchid;
+}
+
+#span2 {
+    color:black;
+}
+
+#span3 {
+    color:red;
+}
+
+p {
+    font-size: 25px;
+    color:darkmagenta;
+}
+
+#a1 {
+    color: black;
+}
+
+#a2 {
+    color:#E1306C;
+}
+
+img {
+top: 235px;
+left: 1030px;
+gap: 0px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+object-fit: contain;
+}
