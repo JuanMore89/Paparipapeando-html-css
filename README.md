@@ -1,1 +1,1 @@
-Estado de la pagina: 50%
+Estado de la pagina: 75%
