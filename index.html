@@ -1,27 +1,51 @@
 <!DOCTYPE html>
-<html lang="es-co">
+<html lang="es-mx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paparipapeando Juan Morales</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-        <header></header>
+        <header class="header">
+            <nav class="header-menu">
+            <a id="separador" class="header-menu-link">Inicio</a>
+            <a id="separacion" class="header-menu-link" href="/about.html">Sobre mí</a>
+        </nav>
+        </header>
+        <!--Estrellas-->
+       <div id="stars"></div>
+       <div id="stars2"></div>
+       <div id="stars3"></div>
             <main class="presentacion">
+                
                 <section class="contenido">
-                    <h1><span class="titulo">Paparapipeando</span>, aprende a paparapipear <strong>con un paparipapeador de verdad</strong>
+                    <!--Titulo-->
+                    <h1>    
+                        <span class="titulo">Paparapipeando</span> Aprende a paparapipear <strong>con un paparipapeador de verdad</strong>
                     </h1>
                     <p class="destacado">¡Cambiemos el mundo! 💋
                     </p>
+                    <!--Mensaje urgente (noticia)-->
                     <p class="urgente">¡Seraphine elegida como máxima representante entre Záun y Piltover!</p>
+                    <!--Redes sociales-->
                     <div class="enlaces">
-                    <a class="redes" id="tiktok" href="https://www.tiktok.com/@.achichigua"><span id="span2">Tik</span><span id="span3">Tok</span></a>
-                    <a class="redes" id="insta" href="https://www.instagram.com/santoyo_samm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
-                    </div>
-                </section>
+                        <h2 class="enlaces-subtitulo">&nbspMis redes 💅</h2>
+                        <a class="redes" id="tiktok" target="_blank" rel="noreferrer" href="https://www.tiktok.com/@.achichigua">
+                            <img class="iconos-boton" src="./assets/tiktok.png">
+                            <span id="span2">Tik</span><span id="span3">Tok</span></a>
+                        <a class="redes" id="insta" target="_blank" rel="noreferrer" href="https://www.instagram.com/santoyo_samm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img class="iconos-boton" src="./assets/instagram.png">
+                            Instagram</a>
+                    </section>
+                    <!--Imagen de Seraphine-->
                     <img src="sera.jpg!d" alt="Imagen de Seraphine splashart">
+                     
              </main>
-        <footer></footer>
+        <footer>
+            <p class="serafoot"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v13" /><path d="M9 8h10" /></svg>&nbspParapapipam&nbsp<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v13" /><path d="M9 8h10" /></svg></p>
+            <br>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1GglmI9q5ABCHSBoZrMHSu?utm_source=generator" width="20%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </footer>
 </body>
 </html>
